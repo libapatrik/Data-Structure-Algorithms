@@ -1,0 +1,3 @@
+Problem 4 – Active Directory
+Structurally we are facing a tree in this problem. Therefore Depth First Search was my choice to traverse and find the matches.
+In terms of time complexity we need to traverse each vertex (nodes), and then add to an array – this takes O(v) where v is the number of vertexes. But further, we need to iterate through the children (list of users) of that node and call DFS function. Therefore, this problem is O(v + e) time complexity. For space complexity we need basically need to store an array of v different nodes, hence space complexity is O(v).

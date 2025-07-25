@@ -1,0 +1,4 @@
+Problem 6 – Union and Intersection of Two Linked Lists
+This task is straight-forward. Logic:
+Union – thinking of Venn diagrams for better visualization of the problem – (two overlapping circles), from first linked list for all its elements we want one desired set of those numbers that have no duplicates. From second linked list check if the element is not already present in the set, then append. Time complexity will be O(n) because we need to traverse all of the elements in the worst-case. Space complexity will also be O(n), because the number of elementary operations we perform is depended upon the size on input n.
+Intersection – again store all elements of first linked list into a set. Then with the second linked list check if the element is not already in the set. If the element is in the first and second linked list add it to the set. Time & space complexity again O(n).

@@ -1,0 +1,2 @@
+Problem 5 – BlockChain
+For this problem I have used linked list. For appending new data it takes O(1) for both time and space complexity. For time complexity, we are performing only quick checks and comparisons as with tasks as functions `insert_before()`, `insert_after()`. For space complexity we work with O(1), because of the nature of linked list and the way they are stored in memory.

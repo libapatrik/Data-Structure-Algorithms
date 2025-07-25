@@ -1,0 +1,2 @@
+Problem 2 – File Recursion
+For this problem I have implemented recursion, since we do not have any prior information about the structure of the folder. This way, we need to traverse through entire directory – this task takes linear amount of elementary operations - O(n). For space complexity, since we are “stacking” recursive calls it makes space usage of O(n) too.

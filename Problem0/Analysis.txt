@@ -1,0 +1,32 @@
+Task0 - costant time efficiency - O(1);
+	Because we are not performing any of complex elementary operations with the data.
+	Just accessing the memory slots where the data is stored.
+
+Task1 - O(n); has 2 for loops so O(2*n) -> O(n);
+	Linear time complexity;
+	as they traverse the array of length n,
+	and therefore as n increases by 1 unit, so does the complexity
+	by 1 elementary operation, 
+
+Task2 - 2 functions - each is linear, O(n);
+	Function get_result() is the main one, which has a for loop, 
+	fuction cum_sum_duration() has 3 inputs,
+	but the way we use the cum_sum is within a for loop under get_result()
+	that is why both functions traverses the data. 
+	Both are dependend on the length of data.
+
+Task3 - O(n) - 4 function each of O(n); sorted() of O(n log(n));
+	for the sorted() function, it is Timsort,
+	which in a worst case has O(n log(n)),
+	meaning that the time complexity increases:
+	based on length of input n multiplied by the log(n);
+	So, it is more expensive than linear time.
+	The best case of Timsort is O(n), if the input is already sorted.
+
+Task4 - O(n) 2 for loops, sorted() of O(n log(n));
+	Using 2 for loop with inputs - calls, texts;
+	So, n is equal to the length of calls and texts, 
+	first for loop uses data=calls as input.
+	Second uses data=texts as input.
+	Traversing through n elements of data is linear in time complexity.
+	
